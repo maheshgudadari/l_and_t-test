@@ -1,0 +1,29 @@
+<div class="card m-3">
+    <h5 class="card-header">Employee Information</h5>
+    <div class="card-body">
+
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">index</th>
+        <th scope="col">Title</th>
+        <th scope="col">First name</th>
+        <th scope="col">Last name</th>
+        <th scope="col">Email</th>
+        <th scope="col">Address</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let employee of employees; let i = index">
+        <th scope="row">{{i+1}}</th>
+        <td>{{employee.title}}</td>
+        <td>{{employee.firstName}}</td>
+        <td>{{employee.lastName}}</td>
+        <td>{{employee.email}}</td>
+        <td>{{employee.address}}</td>
+      </tr>
+     
+    </tbody>
+  </table>
+  </div>
+</div>

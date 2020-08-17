@@ -12,7 +12,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ToastrModule } from 'ngx-toastr';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import {NgbPaginationModule, NgbAlertModule} from '@ng-bootstrap/ng-bootstrap';
-import { ProfileComponent } from './profile/profile.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ViewComponent } from './view/view.component';
 
@@ -23,7 +22,6 @@ import { ViewComponent } from './view/view.component';
     AppComponent,
     HomeComponent,
     ChannelListComponent,
-    ProfileComponent,
     ViewComponent,
   ],
   imports: [

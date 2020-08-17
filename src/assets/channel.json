@@ -1,0 +1,24 @@
+ 
+  [{
+      "name": "Zee",
+      "price": "10"
+    },
+    {
+      "name": "Sony",
+      "price":"15"
+    },
+    {
+      "name":"Star Plus",
+       "price":"20"
+    },
+    {
+      "name": "Discovery",
+      "price":"10"
+    },
+    {
+      "name":"NatGeo",
+       "price":"20"
+    }
+
+  ]
+
